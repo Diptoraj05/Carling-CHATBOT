@@ -1,0 +1,159 @@
+[
+    {
+        "tag": "greeting",
+        "patterns": [
+            "hi",
+            "hello",
+            "hey",
+            "good morning",
+            "good afternoon"
+        ],
+        "responses": [
+            "Hello! I can help you explore science career options after Class 10. How can I help today?"
+        ]
+    },
+    {
+        "tag": "bye",
+        "patterns": [
+            "bye",
+            "goodbye",
+            "see you",
+            "thanks, bye"
+        ],
+        "responses": [
+            "Goodbye! Feel free to return if you have more questions about careers."
+        ]
+    },
+    {
+        "tag": "pcm_interest",
+        "patterns": [
+            "i like maths",
+            "i like physics and maths",
+            "i enjoy maths",
+            "i am good at maths and physics",
+            "i want engineering",
+            "interested in engineering",
+            "i like computers"
+        ],
+        "responses": [
+            "If you like PCM, consider B.Tech/B.E in Computer Science, Mechanical, Civil, or Electrical Engineering. For PG, M.Tech or MS is common."
+        ]
+    },
+    {
+        "tag": "pcb_interest",
+        "patterns": [
+            "i like biology",
+            "i enjoy biology",
+            "i want to be a doctor",
+            "i want medicine",
+            "i am interested in biology",
+            "i like life sciences"
+        ],
+        "responses": [
+            "If you like PCB, common paths are MBBS, BDS, BAMS, BHMS, Veterinary Science, or allied health courses like Nursing and Physiotherapy. For research, consider B.Sc followed by M.Sc/PhD."
+        ]
+    },
+    {
+        "tag": "pcmb_interest",
+        "patterns": [
+            "i like both maths and biology",
+            "i want to keep options open",
+            "i have pcm and pcb both",
+            "i study pcmb",
+            "i study both math and bio"
+        ],
+        "responses": [
+            "With PCMB you can keep options open for both Engineering and Medical careers. Consider interdisciplinary UG courses like Biomedical Engineering or choose at Class 12 based on entrance tests."
+        ]
+    },
+    {
+        "tag": "ug_options",
+        "patterns": [
+            "what ug courses are there",
+            "ug courses",
+            "undergraduate options",
+            "courses after 12 science",
+            "what to study after 12th science",
+            "btech options"
+        ],
+        "responses": [
+            "UG options in science include: B.Tech/B.E (Engineering), MBBS/BDS (Medical), B.Sc (Pure Sciences), B.Arch (Architecture), B.Pharm, B.Sc Nursing, B.Sc Agriculture, and more."
+        ]
+    },
+    {
+        "tag": "pg_options",
+        "patterns": [
+            "postgraduate options",
+            "what after ug",
+            "masters after ug",
+            "pg courses",
+            "msc mtech mba after ug",
+            "phd options"
+        ],
+        "responses": [
+            "PG options include M.Tech, M.Sc, MD/MS, MDS, MBA (Tech Management), M.Phil, and PhD for research-focused careers."
+        ]
+    },
+    {
+        "tag": "entrance_exams",
+        "patterns": [
+            "what exams",
+            "entrance exams",
+            "jee neet",
+            "which exams do i need",
+            "exam details",
+            "exam list"
+        ],
+        "responses": [
+            "Common entrance exams: JEE Main/Advanced for engineering, NEET for medicine, state-level CETs, and specialized exams for architecture (NATA) and agriculture (ICAR AIEEA)."
+        ]
+    },
+    {
+        "tag": "career_advice",
+        "patterns": [
+            "i am confused",
+            "not sure what to choose",
+            "help me choose",
+            "which career suits me",
+            "career guidance",
+            "how to choose career"
+        ],
+        "responses": [
+            "Try a short aptitude test to understand strengths (maths/logic vs memory/rote). If unsure, take PCMB to keep options open or do a psychometric test to choose."
+        ]
+    },
+    {
+        "tag": "save_preferences",
+        "patterns": [
+            "save my preferences",
+            "i want to save",
+            "save and revisit",
+            "save profile",
+            "save preferences and revisit"
+        ],
+        "responses": [
+            "You can save your preferences from the profile screen. (Note: In this demo, persistence is not enabled.)"
+        ]
+    },
+    {
+        "tag": "college_info",
+        "patterns": [
+            "colleges",
+            "top colleges",
+            "college info",
+            "where to study",
+            "college recommendations",
+            "best colleges"
+        ],
+        "responses": [
+            "College recommendations depend on the course and your exam scores. For engineering consider IITs/NITs/State colleges; for medicine check MBBS seat lists and state quotas."
+        ]
+    },
+    {
+        "tag": "default_fallback",
+        "patterns": [],
+        "responses": [
+            "Sorry, I didn't understand that fully. Can you rephrase or mention if you prefer PCM/PCB/PCMB or a specific career like engineering or medicine?"
+        ]
+    }
+]

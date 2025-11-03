@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Carling — Your AI Career Guide (Dark)</title>
+  <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="dark">
+  <div class="stars"></div>
+
+  <header class="hero-section">
+    <div class="hero-content">
+      <div class="brand-group">
+        <img src="https://img.icons8.com/ios-filled/50/00e5ff/brain.png" alt="logo" class="logo">
+        <div>
+          <h1 class="brand-name">Carling</h1>
+          <p class="tagline">Your AI Career Guide</p>
+        </div>
+      </div>
+
+      <p class="intro-text">Find your right science path with AI — explore Engineering, Medicine, Research, and more.</p>
+
+      <div class="hero-actions">
+        <button id="start-chat" class="start-btn">Start Chat</button>
+        <a class="secondary" href="#features">Learn More</a>
+      </div>
+    </div>
+  </header>
+
+  <section id="features" class="features">
+    <div class="feature-card">
+      <h3>AI Suggestions</h3>
+      <p>Stream-aligned guidance powered by a curated knowledge base.</p>
+    </div>
+    <div class="feature-card">
+      <h3>College Links</h3>
+      <p>Option to connect suggestions to college resources (future feature).</p>
+    </div>
+    <div class="feature-card">
+      <h3>Scalable</h3>
+      <p>Designed to support many students simultaneously.</p>
+    </div>
+  </section>
+
+  <section class="chat-section hidden" id="chat-section">
+    <div class="chat-box">
+      <div class="chat-header">
+        <div class="header-left">
+          <img src="https://img.icons8.com/fluency/48/000000/robot-2.png" alt="bot" class="bot-icon">
+          <div>
+            <div class="chat-title">Carling Chatbot</div>
+            <div class="chat-sub">AI Career Guidance</div>
+          </div>
+        </div>
+        <button class="close-chat" id="close-chat">✕</button>
+      </div>
+
+      <div class="chat-window" id="chat-window"></div>
+
+      <form id="chat-form" class="chat-form" autocomplete="off">
+        <input id="user-input" type="text" placeholder="Ask your career question...">
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <footer class="footer">
+    <p>© 2025 Carling. Built by students for students.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
